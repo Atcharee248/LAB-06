@@ -108,3 +108,41 @@
 ``` ID : (ป้อนรหัสนักศึกษา).```
 
 ``` GPA : (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก).```
+
+<h4>ตอบ</h4> 
+<br>
+
+```
+namespace Lab6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+                Console.Write("Please enter your name : ");
+                string str1 = Console.ReadLine();
+
+                Console.Write("Please enter your last name : ");
+                string str2 = Console.ReadLine();
+
+                Console.Write("Please enter your Id : ");
+                string str3 = Console.ReadLine();
+
+                Console.Write("Please enter your GPA : ");
+                string str4 = Console.ReadLine();
+
+                Console.Write("your name : " + str1);
+                Console.Write("\r\n");
+                Console.Write("your last name : " + str2);
+                Console.Write("\r\n");
+                Console.Write("your ID : " + str3);
+                Console.Write("\r\n");
+                Console.Write("your GPA : " + str4);
+                Console.Write("\r\n");
+
+        }
+    }
+}
+```
+<img src="https://github.com/Atcharee248/LAB-06/blob/master/imgs/lab6_5.JPG?raw=true">
